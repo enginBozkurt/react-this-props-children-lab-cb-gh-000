@@ -9,7 +9,7 @@ export default class ThemedDecorations extends React.Component {
               className: this.props.theme,
             });
         });
-        
+
     return (
         <div className="themed-decorations">
           {childrenWithClassName}
